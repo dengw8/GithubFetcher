@@ -84,6 +84,7 @@ public class RepoActivity extends AppCompatActivity {
                 .subscribe(subscriber);
     }
 
+    
     @Override
     protected void onDestroy() {
         super.onDestroy();
