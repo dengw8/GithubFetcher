@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="120dp"
+tools:context="com.example.duang1996.githubfetcher.RepoActivity">
+
+<TextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/name"
+    app:layout_constraintTop_toBottomOf="parent"
+    android:text="duang0626"
+    android:textStyle="bold"
+    android:textSize="18sp"
+    android:layout_marginTop="18dp"
+    android:layout_marginBottom="8dp"
+    android:layout_marginLeft="15dp"
+    android:layout_marginRight="15dp"/>
+<TextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/type"
+    app:layout_constraintTop_toBottomOf="@id/name"
+    android:text="c++"
+    android:textStyle="bold"
+    android:textSize="15sp"
+    android:layout_marginTop="8dp"
+    android:layout_marginBottom="8dp"
+    android:layout_marginLeft="15dp"
+    android:layout_marginRight="15dp"/>
+
+<TextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/description"
+    app:layout_constraintTop_toBottomOf="@id/type"
+    android:text="This is a project of c++"
+    android:textSize="16sp"
+    android:layout_marginTop="8dp"
+    android:layout_marginBottom="18dp"
+    android:layout_marginLeft="15dp"
+    android:layout_marginRight="15dp"
+    android:singleLine="true"
+    android:ellipsize="end"/>
+
+</android.support.constraint.ConstraintLayout>
