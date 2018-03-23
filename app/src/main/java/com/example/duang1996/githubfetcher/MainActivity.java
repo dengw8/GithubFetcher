@@ -29,6 +29,7 @@ import java.util.Map;
 import rx.Subscriber;
 import rx.Subscription;
 import rx.android.schedulers.AndroidSchedulers;
+import rx.functions.Action1;
 import rx.schedulers.Schedulers;
 
 public class MainActivity extends AppCompatActivity {
@@ -111,7 +112,7 @@ public class MainActivity extends AppCompatActivity {
                  */
                 progressBar.setVisibility(View.VISIBLE);
 
-                subscription = subscriber = new Subscriber<User>() {
+                subscriber = new Subscriber<User>() {
                     @Override
                     public void onCompleted() {
                         Log.d("Mydebug", "User onCompleted");
@@ -141,7 +142,7 @@ public class MainActivity extends AppCompatActivity {
                     }
                 };
 
-                gitHubService.getUser(inputStr)
+                subscription = gitHubService.getUser(inputStr)
                         .subscribeOn(Schedulers.io())
                         .observeOn(AndroidSchedulers.mainThread())
                         .subscribe(subscriber);
