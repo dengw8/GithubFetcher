@@ -1,10 +1,12 @@
-package com.example.duang1996.githubfetcher.Model;
+package com.example.duang1996.githubfetcher.Bean;
+
+import java.io.Serializable;
 
 /**
  * Created by duang1996 on 2017/12/12.
  */
 
-public class Repo {
+public class Repo implements Serializable{
     private String name;
     private String language;
     private String description;

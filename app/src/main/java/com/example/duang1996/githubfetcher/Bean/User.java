@@ -1,10 +1,10 @@
-package com.example.duang1996.githubfetcher.Model;
+package com.example.duang1996.githubfetcher.Bean;
 
 /**
  * Created by duang1996 on 2017/12/12.
  */
 
-public class User {
+public class User{
     private String login;
     private String id;
     private String blog;

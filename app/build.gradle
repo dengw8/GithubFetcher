@@ -34,4 +34,6 @@ dependencies {
 
     implementation 'io.reactivex:rxandroid:1.2.1'
 
+    compile 'org.greenrobot:eventbus:3.0.0'
+
 }

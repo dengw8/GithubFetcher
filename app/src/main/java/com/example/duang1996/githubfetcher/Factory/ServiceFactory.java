@@ -31,7 +31,7 @@ public class ServiceFactory {
                 .baseUrl(baseUrl)
                 .addConverterFactory(GsonConverterFactory.create())
                 .addCallAdapterFactory(RxJavaCallAdapterFactory.create())
-                .client(okHttpClient)
+                .client(okHttpClient)   //其实Retrofit已经默认使用OkHttp作为网络请求的客户端了，对OkHttp没有特殊配置不用加这句
                 .build();
     }
 
