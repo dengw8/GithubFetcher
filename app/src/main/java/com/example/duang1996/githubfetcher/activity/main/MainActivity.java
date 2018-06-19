@@ -1,4 +1,4 @@
-package com.example.duang1996.githubfetcher.main;
+package com.example.duang1996.githubfetcher.activity.main;
 
 import android.content.Context;
 import android.content.Intent;
@@ -16,10 +16,10 @@ import android.widget.Toast;
 
 import com.example.duang1996.githubfetcher.adapter.CardAdapter;
 
-import com.example.duang1996.githubfetcher.main.presenter.MainPresenterCompl;
-import com.example.duang1996.githubfetcher.main.view.IMainView;
+import com.example.duang1996.githubfetcher.activity.main.presenter.MainPresenterCompl;
+import com.example.duang1996.githubfetcher.activity.main.view.IMainView;
 import com.example.duang1996.githubfetcher.R;
-import com.example.duang1996.githubfetcher.userInfo.RepoActivity;
+import com.example.duang1996.githubfetcher.activity.userInfo.RepoActivity;
 
 
 public class MainActivity extends AppCompatActivity implements IMainView{

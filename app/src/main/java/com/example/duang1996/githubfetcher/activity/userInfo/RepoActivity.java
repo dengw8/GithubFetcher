@@ -1,4 +1,4 @@
-package com.example.duang1996.githubfetcher.userInfo;
+package com.example.duang1996.githubfetcher.activity.userInfo;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
@@ -10,8 +10,8 @@ import android.widget.SimpleAdapter;
 import com.example.duang1996.githubfetcher.eventBus.event.MessageEvent;
 import com.example.duang1996.githubfetcher.bean.Repo;
 import com.example.duang1996.githubfetcher.R;
-import com.example.duang1996.githubfetcher.userInfo.presenter.ReposPresenterCompl;
-import com.example.duang1996.githubfetcher.userInfo.view.IReposView;
+import com.example.duang1996.githubfetcher.activity.userInfo.presenter.ReposPresenterCompl;
+import com.example.duang1996.githubfetcher.activity.userInfo.view.IReposView;
 
 import org.greenrobot.eventbus.EventBus;
 import org.greenrobot.eventbus.Subscribe;

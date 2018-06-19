@@ -1,4 +1,4 @@
-package com.example.duang1996.githubfetcher.userInfo.model;
+package com.example.duang1996.githubfetcher.activity.userInfo.model;
 
 import java.util.List;
 import java.util.Map;

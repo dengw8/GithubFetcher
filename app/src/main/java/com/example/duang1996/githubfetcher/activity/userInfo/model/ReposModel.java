@@ -1,4 +1,4 @@
-package com.example.duang1996.githubfetcher.userInfo.model;
+package com.example.duang1996.githubfetcher.activity.userInfo.model;
 
 import com.example.duang1996.githubfetcher.bean.Repo;
 import com.example.duang1996.githubfetcher.factory.ServiceFactory;

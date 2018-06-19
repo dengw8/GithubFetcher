@@ -1,4 +1,4 @@
-package com.example.duang1996.githubfetcher.main.view;
+package com.example.duang1996.githubfetcher.activity.main.view;
 
 
 /**

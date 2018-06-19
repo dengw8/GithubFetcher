@@ -1,10 +1,10 @@
-package com.example.duang1996.githubfetcher.main.presenter;
+package com.example.duang1996.githubfetcher.activity.main.presenter;
 
 
-import com.example.duang1996.githubfetcher.main.model.GetUserInfoCallback;
-import com.example.duang1996.githubfetcher.main.model.IMainModel;
-import com.example.duang1996.githubfetcher.main.model.MainModel;
-import com.example.duang1996.githubfetcher.main.view.IMainView;
+import com.example.duang1996.githubfetcher.activity.main.model.GetUserInfoCallback;
+import com.example.duang1996.githubfetcher.activity.main.model.IMainModel;
+import com.example.duang1996.githubfetcher.activity.main.model.MainModel;
+import com.example.duang1996.githubfetcher.activity.main.view.IMainView;
 
 
 import java.util.ArrayList;

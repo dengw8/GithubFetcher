@@ -1,4 +1,4 @@
-package com.example.duang1996.githubfetcher.main.model;
+package com.example.duang1996.githubfetcher.activity.main.model;
 
 /**
  * Created by duang1996 on 2018/4/17.

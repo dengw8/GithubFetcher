@@ -1,11 +1,11 @@
-package com.example.duang1996.githubfetcher.userInfo.presenter;
+package com.example.duang1996.githubfetcher.activity.userInfo.presenter;
 
 import com.example.duang1996.githubfetcher.eventBus.event.MessageEvent;
 
-import com.example.duang1996.githubfetcher.userInfo.model.GetReposCallback;
-import com.example.duang1996.githubfetcher.userInfo.model.IReposModel;
-import com.example.duang1996.githubfetcher.userInfo.model.ReposModel;
-import com.example.duang1996.githubfetcher.userInfo.view.IReposView;
+import com.example.duang1996.githubfetcher.activity.userInfo.model.GetReposCallback;
+import com.example.duang1996.githubfetcher.activity.userInfo.model.IReposModel;
+import com.example.duang1996.githubfetcher.activity.userInfo.model.ReposModel;
+import com.example.duang1996.githubfetcher.activity.userInfo.view.IReposView;
 
 import org.greenrobot.eventbus.EventBus;
 

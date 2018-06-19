@@ -1,4 +1,4 @@
-package com.example.duang1996.githubfetcher.userInfo.presenter;
+package com.example.duang1996.githubfetcher.activity.userInfo.presenter;
 
 import java.util.List;
 import java.util.Map;
